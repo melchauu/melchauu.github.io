@@ -2,24 +2,26 @@
 <html>
 <head>
     <style>
-        div {
+        img {
             width: 100px;
             height: 100px;
-            background: red;
             transition: width 2s;
+            object-fit:contain;
         }
 
-        div:hover {
+        img:hover {
             width: 300px;
         }
     </style>
 </head>
-<body>
+<body style="background-color:dimgrey; color:floralwhite; font-family: 'Trebuchet MS', sans-serif;">
 
-<h1>The transition Property</h1>
+<h1>Go-pher it</h1>
 
 <p>Hover over the div element below, to see the transition effect:</p>
-<div></div>
+<div>
+    <img src="img/gopher_no_hole.png">  <!-- http://jsfiddle.net/8Wkgf/1/  slide off screen -->
+</div>
 
 <p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
 
